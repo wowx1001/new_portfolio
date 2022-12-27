@@ -1,0 +1,22 @@
+<svg id="레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffffff;
+        stroke-width: 5px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #ffffff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 6px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="109.65 63 35.68 104.61 35.68 21.39 109.65 63"/>
+  <circle class="cls-2" cx="63" cy="63" r="60"/>
+</svg>

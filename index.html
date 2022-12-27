@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/common.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <title>Jang Jaeseok Portfolio</title>
+</head>
+<body>
+  <header id="pf-header">
+    <nav class="nav-wrap nav-pc">
+      <div>
+        <a href="#" class="move-top">
+          TOP
+        </a>
+      </div>
+      <div>
+        <ul class="navmenu-container">
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="1">INFO</a>
+          </li>
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="2">SKILL</a>
+          </li>
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="3">PROJECTS</a>
+          </li>
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="4">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="nav-wrap nav-mobile">
+      <div>
+        <a href="#" class="move-top">
+          TOP
+        </a>
+      </div>
+      <button type="button" id="mobile-menu-btn">
+        <img style="height: 26px;" src="/src/img/SVG/bars-solid.svg" type="image/svg+xml" aria-label="버거 아이콘"/>
+      </button>
+      <div id="mobile-menu-block" class="off">
+        <ul class="navmenu-container">
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="1">INFO</a>
+          </li>
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="2">SKILL</a>
+          </li>
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="3">PROJECTS</a>
+          </li>
+          <li class="navmenu-items">
+            <a href="#" onclick="return false;" data-index="4">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="pf-swiper">
+    <ul>
+      <li data-index="1" class="swiper-btn on"><a href="#"></a></li>
+      <li data-index="2" class="swiper-btn"><a href="#"></a></li>
+      <li data-index="3" class="swiper-btn"><a href="#"></a></li>
+      <li data-index="4" class="swiper-btn"><a href="#"></a></li>
+    </ul>
+  </div>
+  <div id="pf-main">
+    <section id="particles-js" class="main-greet pf-pages">
+      <video playsinline autoplay muted loop class="absolute">
+        <source src="/src/img/Waves - 447.mp4" type="video/mp4">
+      </video>
+      <div class="main-titles" 
+        data-aos="fade-in" 
+        data-aos-easing="ease"
+        data-aos-duration="1000"
+        data-aos-once="false">
+        <h1>Welcome</h1>
+        <p>WEB DEVELOPER PORTFOLIO</p>
+      </div>
+    </section>
+    <section class="main-skills pf-pages">
+      <div
+      data-aos="fade-in" 
+      data-aos-easing="ease"
+      data-aos-duration="1000"
+      data-aos-once="false">
+        <h1 style="font-weight: 600;">안녕하세요, 웹 개발자 장재석입니다</h1>
+        <h4 style="font-weight: 500;">기술 스택과 이력을 소개합니다</h4>
+        <div class="sdb-01 skills-description-block">
+          <h1>Front-End Tech</h1>
+          <ul>
+            <li><span class="white-texts">웹표준을 바탕으로 시맨틱 마크업을 작성합니다</span></li>
+            <li><span class="white-texts">css &amp; 자바스크립트 &amp; 제이쿼리를 통해 슬라이더/롤링/팝업 등 각종 애니메이션 코드를 작성할 수 있습니다</span></li>
+            <li><span class="white-texts">미디어 쿼리를 통해 반응형 페이지를 제작합니다</span></li>
+            <li><span class="white-texts">SEO 최적화를 하여 사용자 접근을 개선할 수 있습니다</span></li>
+            <li><span class="white-texts">인터랙티브한 웹에 관심이 많아 현재 공부하고 있습니다</span></li>
+          </ul>
+        </div>
+        <div class="hashtag-block ipex-fonts">
+          <ul>
+            <li>HTML</li>
+            <li>JAVASCRIPT</li>
+            <li>CSS</li>
+            <li>SEO</li>
+            <li>JQUERY</li>
+          </ul>
+        </div>
+        <div class="sdb-02 skills-description-block">
+          <h1>Back-End Tech</h1>
+          <ul>
+            <li>
+              <span class="white-texts">PHP 유지보수 경험이 많습니다</span>
+              <p class="gray-texts addi-desc">소셜 로그인, curl 통신, html 매핑, api 통신, ORM 개발 및 유지보수</p>
+            </li>
+            <li>
+              <span class="white-texts">소규모 서비스의 웹 서버 및 MYSQL 데이터 베이스 구축 및 관리를 한 경험이 있습니다</span>
+              <p class="gray-texts addi-desc">apache 웹서버 장애 대응, GA 로그 데이터베이스 구축</p>
+            </li>
+            <li>
+              <span class="white-texts">파이썬 스크래퍼를 통한 업무 자동화 프로그램을 개발한 경험이 있습니다</span>
+              <p class="gray-texts addi-desc">구직 공고 수집 스크래퍼, 사전 스크래퍼, 캡차 우회 api 연동, 업무 알림톡 전송 프로그램 개발</p>
+            </li>
+          </ul>
+        </div>
+        <div class="hashtag-block ipex-fonts">
+          <ul>
+            <li>PHP</li>
+            <li>PYTHON</li>
+            <li>MYSQL</li>
+            <li>APACHE</li>
+            <li>JAVA</li>
+          </ul>
+        </div>
+        <div class="row-flex-block">
+          <div class="half-blocks cv-desc-01 cv-common">
+            <h2>curriculum vitae</h2>
+            <dl>
+              <dt>2021.08 - 2022.08</dt>
+              <dd>주식회사 로이어드 컴퍼니 웹 개발 담당 / 주임</dd>
+              <dt>2020.09 - 2020.12</dt>
+              <dd>공공데이터 청년 인턴 과정 수료 (도로교통공단 파견)</dd>
+              <dt>2016.03 - 2020.02</dt>
+              <dd>강릉원주대학교 졸업</dd>
+              <dt>2019.07 - 2019.11</dt>
+              <dd>빅데이터 분석 교육 과정 수료</dd>
+              <dt>2013.03 - 2016.02</dt>
+              <dd>진광고등학교 졸업</dd>
+            </dl>
+          </div>
+          <div class="half-blocks cv-desc-02 cv-common left-border">
+            <h2>certificate</h2>
+            <p>정보처리기사</p>
+            <p>컴퓨터활용능력 1급</p>
+            <p>cos 2급</p>
+            <p>운전면허보통 2종</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="main-projects pf-pages">
+      <h1>PROJECTS</h1>
+      <div id="projects-slider" class="row-flex-block">
+        <div>
+          <div class="row-flex-block">
+            <h1 class="projects-num">1</h1>
+            <div class="projects-img-wrap">
+              <img src="/src/img/wtweb.png"/>
+            </div>
+            <div class="projects-description column-flex horizontal-align-flex vertical-align-flex">
+              <div>
+                <h2>제목</h2>
+                <h3>설명설명</h3>
+                <a class="main-point-color" href="#">기술서 바로가기</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projects-btn-block">
+        <!-- next/prev btn area -->
+        <button type="button" id="projects-prev">
+          <img src="/src/img/SVG/slide-btn.svg" type="image/svg+xml" aria-label="이전 버튼"/>
+        </button>
+        <button type="button" id="projects-next">
+          <img src="/src/img/SVG/slide-btn.svg" type="image/svg+xml" aria-label="다음 버튼"/>
+        </button>
+      </div>
+      <div id="projects-swiper">
+        <!-- slider dots -->
+      </div>
+    </section>
+    <section class="main-contact pf-pages column-flex horizontal-align-flex">
+      <div
+        data-aos="fade-in" 
+        data-aos-easing="ease"
+        data-aos-duration="1000"
+        data-aos-once="false">
+        <h1>Thank you</h1>
+        <p class="row-block-01">약속과 소통을 중요시 하는 제 신념에 따라<br>
+          저는 다음과 같은 약속을 하겠습니다.</p>
+        <ul class="row-block-02">
+          <li><span class="main-point-color">I.</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원활한 소통을 통해 협업을 약속하겠습니다</li>
+          <li><span class="main-point-color">II.</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;끊임없이 발전하는 개발자로 거듭날 것을 약속하겠습니다.</li>
+          <li><span class="main-point-color">III.</span> &nbsp;&nbsp;&nbsp;&nbsp;부족한 점은 수용하고, 모든 일에 최고의 역량을 발휘할 것을 약속하겠습니다.</li>
+        </ul>
+        <div class="row-block-03">
+          <h1>CONTACT</h1>
+          <div class="row-flex-block">
+            <div class="row-flex-block half-blocks flex-wrap-on">
+              <div class="half-blocks reach-column">
+                <embed src="/src/img/SVG/mobile-solid.svg" type="image/svg+xml" aria-label="모바일 아이콘"/>
+                <a href="tel:010-9529-1479">010-9529-1479</a>
+              </div>
+              <div class="half-blocks reach-column">
+                <embed src="/src/img/SVG/envelope-solid.svg" type="image/svg+xml" aria-label="메일 아이콘"/>
+                <a href="mailto:wowx1001@naver.com">wowx1001@naver.com</a>
+              </div>
+              <div class="half-blocks reach-column">
+                <embed src="/src/img/SVG/square-git.svg" type="image/svg+xml" aria-label="깃 아이콘"/>
+                <a href="#">git 바로가기</a>
+              </div>
+            </div>
+            <div class="half-blocks">
+              # 웹 퍼블리셔 # 웹 풀스택<br>
+              # 웹 백엔드 # 웹 프론트엔드<br>
+              # RPA # SEO</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer id="pf-footer"></footer>
+  <script type="text/javascript" src="/src/js/wheelScroll.js"></script>
+  <script type="text/javascript" src="/src/js/slider.js"></script>
+  <script type="text/javascript" src="/src/js/header.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
